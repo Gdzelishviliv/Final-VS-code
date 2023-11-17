@@ -1,0 +1,220 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header-container{
+    width: 100%;
+    margin: auto;
+    padding-inline: 15px;
+}
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color:#242424;
+    height: 50px;
+}
+body{
+    margin: 0px;
+}
+.nav-links{
+    display: none;
+    color: #9d9d9d;
+    padding: 17px 12px 13px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: white;
+}
+.header-container .nav-links{
+    padding: 15px;
+}
+.download-search-box{
+    display: none;
+}
+.logo{
+    width: 220px;
+    background-image: url(../photos/VSlogo.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding: 15px 15px 15px 36px;
+    text-decoration:none;
+    color: white;
+    background-position: left 50%;
+    padding-left: 36px;
+    font-size: 20px;
+    letter-spacing: -0.04rem;
+    line-height: 20px;
+}
+nav{
+    height: 50px;
+    display: flex;
+} 
+.menu-btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+}
+.menu-btn .icon-bar+.icon-bar{
+    margin-top: 4px;
+}
+.icon-bar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color:white;
+}
+.search-box{
+    display: flex;
+}
+.search-icn{
+    background-color: transparent;
+    background-image: url(./searchicon.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    border: transparent;
+    cursor: pointer;
+    margin: 17px;
+}
+.download-btn{
+    color: white;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 17px 20px;
+    height: 50px;
+}
+.notification {
+    background-color: #25252b;
+    color: #ccc;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.notification a {
+    color: #0066b8;
+}
+.welcome-section{
+    background-color: #2c2c32;
+}
+.download-column h1{
+    color: white;
+}
+.download-column p{
+    color: rgba(255,255,255,.6);
+}
+.download-bar{
+    cursor: pointer;
+    background-color: #0066b8;
+    color: white;
+    width: 232px;
+    height: 65px;
+    font-size: 20px; border: none;
+}
+.welcome-section{
+    text-align: center;
+}
+.dwn-icn{
+    width: 43px;
+    background-color: #0066b8;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+}
+.tooltip{
+    position: relative;
+    font-size: 13px;
+    margin-bottom: 0;
+    background: #25252b;
+    border-radius: 8px;
+    padding: 8px 8px;
+    margin: auto;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+    color: #ffffff99;
+    width: 286px;
+}
+.tooltip::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #25252b;
+    position: absolute;
+    top: -0.5rem;
+    right: 20px;
+}
+.tooltip a{
+    text-decoration: none;
+    color: #0098ff;
+}
+.extension-row{ 
+    align-items: center;
+    height: 128px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+    text-align: center;
+}
+.extension-img-1{
+    background-image: url('../photos/extension-icns.svg');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.extension-img-2{
+    background-image: url('../photos/extension-icns.svg');
+    background-repeat: no-repeat;
+    background-position: -50px 0px;
+    width: 53px;
+    height: 50px;
+    margin: auto;
+}
+.extension-img-3{
+    background-image: url('../photos/extension-icns.svg');
+    background-repeat: no-repeat;
+    background-position: -103px 0px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.extension-img-4{
+    background-image: url('../photos/extension-icns.svg');
+    background-repeat: no-repeat;
+    background-position: -156px 0px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.grid-item a{
+    text-decoration: none;
+    color: #242424;
+}
+.extension-row .grid-item:hover{
+    cursor: pointer;
+    background-color: #e3e3e3;
+}
+.grid-item{
+    height:128px;
+    padding:32px;
+}
+.grid-item .extension-img-1:hover{
+    background-position: 0px -53px;
+}
+.grid-item .extension-img-2:hover{
+    background-position: -50px -53px;
+}
+.grid-item .extension-img-3:hover{
+    background-position: -103px -53px;
+}
+.grid-item .extension-img-4:hover{
+    background-position: -156px -53px;
+}
