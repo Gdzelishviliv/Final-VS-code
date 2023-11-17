@@ -67,10 +67,10 @@
         gap: 17px;
     }
     .first-info-1 .first-info-content{
-        order: 1;
+        order:1;
     }
     .first-info-1 .first-info-img{
-        order: 2;
+        order:2;
     }
 }
 @media screen and (min-width:1200px){

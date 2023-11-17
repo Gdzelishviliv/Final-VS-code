@@ -267,3 +267,11 @@ nav{
     text-align: start;
     line-height: 40px;
 }
+.Hundreds-of-Extensions-img:hover{
+    transform: scale(1.05);
+    transition: transform .75s;
+    cursor: pointer;
+}
+.Hundreds-of-Extensions-img{
+    transition: transform .25s;
+}
