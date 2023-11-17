@@ -48,6 +48,12 @@
     .extension-row{
         grid-template-columns: auto auto auto auto;
     }
+    #extensions-height{
+        height: 128px;
+    }
+    .testimonials-section .header-container{
+        grid-template-columns: auto auto auto;
+    }
 }
 @media screen and (min-width:1200px){
     .header-container{

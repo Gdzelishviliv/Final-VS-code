@@ -218,3 +218,25 @@ nav{
 .grid-item .extension-img-4:hover{
     background-position: -156px -53px;
 }
+.testimonials-section .header-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto;
+    justify-items: center
+}
+#extensions-height{
+    height: 275px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 72px auto;
+    gap:10px;
+}
+.profile-content{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+.testimonials-section h6{
+    margin: 0px;
+}
