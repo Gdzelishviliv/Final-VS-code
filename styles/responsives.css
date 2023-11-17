@@ -54,6 +54,24 @@
     .testimonials-section .header-container{
         grid-template-columns: auto auto auto;
     }
+    .header-container .first-info{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align:start;
+        gap: 170px;
+    }
+    .header-container .first-info-1{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align:start;
+        gap: 17px;
+    }
+    .first-info-1 .first-info-content{
+        order: 1;
+    }
+    .first-info-1 .first-info-img{
+        order: 2;
+    }
 }
 @media screen and (min-width:1200px){
     .header-container{

@@ -231,12 +231,39 @@ nav{
     display: grid;
     grid-template-columns: 72px auto;
     gap:10px;
+    padding-top: 20px;
 }
 .profile-content{
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
 }
+.testimonials-section{
+    background-color: #f5f5f5;
+    padding: 70px;
+}
 .testimonials-section h6{
     margin: 0px;
+}
+.header-container .first-info{
+    display: grid;
+    text-align: start;
+    line-height: 40px;
+}
+.first-info .first-info-img{
+    text-align: center;
+}
+.first-info{
+    padding: 60px 0px;
+}
+.first-info-1{
+    padding: 60px 0px;
+}
+.first-info-1 .first-info-img{
+    text-align: center;
+}
+.header-container .first-info-1{
+    display: grid;
+    text-align: start;
+    line-height: 40px;
 }
