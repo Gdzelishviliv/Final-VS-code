@@ -411,3 +411,27 @@ td a{
 .license-111 a{
     color: #0071bc;
 }
+.foter{
+    color:white;
+    padding: 25px 0px;
+    font-size: 14px;
+}
+footer{
+    background-color: #333;
+}
+.star-btn{
+    color: #333;
+    border: 1px solid #d5d5d5;
+    background-color: white;  
+    padding: 2px 5px 2px 4px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.star-btn:hover{
+    background-color: #ddd;
+}
+.microsoft-ftr a{
+    color:white;
+}
