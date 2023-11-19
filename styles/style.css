@@ -275,3 +275,53 @@ nav{
 .Hundreds-of-Extensions-img{
     transition: transform .25s;
 }
+.row-vs-code-for{
+    text-align: center;
+    font-size: 20px;
+    font-weight:lighter;
+    color: #242424;
+    margin: 20px 0px 35px;
+}
+.languages-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.language-row-icn img{
+    width: 30px;
+    height: 30px;
+}
+.language-row-icn{
+    display: flex;
+    align-items: center;
+}
+.swimlane-language-list{
+    background-color: #f5f5f5;
+    padding: 60px 0px;
+}
+a{
+    text-decoration: none;
+}
+#swimline-text{
+    display: flex;
+    justify-content:space-around;
+    color: #0066b8;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.swilmline-btn button{
+    color: white;
+    border:1px solid #0066b8;
+    background-color: #0066b8;
+    height: 60px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius:2px;
+    cursor: pointer;
+}
+.swilmline-btn{
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+}
