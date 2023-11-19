@@ -325,3 +325,52 @@ a{
     display: flex;
     justify-content: center;
 }
+
+.download-buttons{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.download-buttons>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-windows{
+    width: 240px;
+    margin: 0px 68px;
+}
+.download-section{
+    padding: 60px 0px;
+}
+.logo-windows button{
+    margin-top: 15px;
+    background-color: #0066b8;
+    color: white;
+    border: 0px;
+    align-self: stretch;
+    height: 75px;
+    width: 240px;
+    text-align: center;
+}
+.download small{
+    display: block;
+    padding-top: 5px;
+}
+.download span{
+    font-size: 20px;
+    padding-left: 10px;
+}
+td a{
+    background-color: #0066b8;
+    color:white; 
+    padding: 3px 4px;
+    border-radius: 2px;
+}
+.logo-windows table{
+    padding-top: 20px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    border-spacing: 5px 9px;
+    font-size: 15px;
+}
