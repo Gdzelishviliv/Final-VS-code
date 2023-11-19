@@ -9,6 +9,11 @@
     #apple-card{
         margin-left: 100%;
     }
+    .info-flex{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
 }
 @media screen and (min-width:992px){
     .header-container{
@@ -87,6 +92,10 @@
     .languages-list{
         grid-template-columns: auto auto auto auto auto auto;
     }
+    .license-111{
+        padding: 20px 228px;
+        line-height: 35px;
+    }
 }
 @media screen and (min-width:1200px){
     .header-container{
@@ -113,6 +122,7 @@
     .download-buttons{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        justify-items: center;
     }
     #apple-card{
         margin-left: 0%;
